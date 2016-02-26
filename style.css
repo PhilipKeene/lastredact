@@ -1,10 +1,11 @@
-.fade {
-   opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-   }
+body {
+    color: white;
+	font-family: Verdana;
+	font-size: 1.875em;
+}
 
-   .fade:hover {
-      opacity: 0.5;
-      }
+fade {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
