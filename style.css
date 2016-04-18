@@ -12,10 +12,19 @@ body {
     transform: translateX(-50%) translateY(-50%);
 }
 
-
-fade {
-  -webkit-animation-delay: 1.7s;
-  -moz-animation-delay: 1.7s;
-  animation-delay: 1.7s;
+a, a:visited, a:active {
+	color: inherit;
+} 
+a, a:hover { 
+	color: yellow;
 }
+
+.fade-in {
+	-webkit-animation-delay: 0.7s;
+	-moz-animation-delay: 0.7s;
+	animation-delay: 0.7s;
+}
+
+
+
 
